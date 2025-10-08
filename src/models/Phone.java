@@ -12,7 +12,7 @@ public class Phone {
     private List<Contact> contacts = new ArrayList<Contact>();
     public Phone() {
     }
-    public Phone(Long id, String name, String brand) {
+    public Phone( String name, String brand) {
         this.id = GenerateId.genPhoneId();
         this.name = name;
         this.brand = brand;
